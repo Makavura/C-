@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "mod_two_lab/1.0.0": {
+        "runtime": {
+          "mod_two_lab.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "mod_two_lab/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

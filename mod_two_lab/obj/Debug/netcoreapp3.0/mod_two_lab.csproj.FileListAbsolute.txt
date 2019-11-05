@@ -1,0 +1,11 @@
+/home/makavura/.senior/Learning/C#/mod_two_lab/bin/Debug/netcoreapp3.0/mod_two_lab
+/home/makavura/.senior/Learning/C#/mod_two_lab/bin/Debug/netcoreapp3.0/mod_two_lab.deps.json
+/home/makavura/.senior/Learning/C#/mod_two_lab/bin/Debug/netcoreapp3.0/mod_two_lab.runtimeconfig.json
+/home/makavura/.senior/Learning/C#/mod_two_lab/bin/Debug/netcoreapp3.0/mod_two_lab.runtimeconfig.dev.json
+/home/makavura/.senior/Learning/C#/mod_two_lab/bin/Debug/netcoreapp3.0/mod_two_lab.dll
+/home/makavura/.senior/Learning/C#/mod_two_lab/bin/Debug/netcoreapp3.0/mod_two_lab.pdb
+/home/makavura/.senior/Learning/C#/mod_two_lab/obj/Debug/netcoreapp3.0/mod_two_lab.csprojAssemblyReference.cache
+/home/makavura/.senior/Learning/C#/mod_two_lab/obj/Debug/netcoreapp3.0/mod_two_lab.AssemblyInfoInputs.cache
+/home/makavura/.senior/Learning/C#/mod_two_lab/obj/Debug/netcoreapp3.0/mod_two_lab.AssemblyInfo.cs
+/home/makavura/.senior/Learning/C#/mod_two_lab/obj/Debug/netcoreapp3.0/mod_two_lab.dll
+/home/makavura/.senior/Learning/C#/mod_two_lab/obj/Debug/netcoreapp3.0/mod_two_lab.pdb

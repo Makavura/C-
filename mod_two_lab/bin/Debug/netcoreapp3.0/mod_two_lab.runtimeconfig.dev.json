@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/makavura/.dotnet/store/|arch|/|tfm|",
+      "/home/makavura/.nuget/packages"
+    ]
+  }
+}
