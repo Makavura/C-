@@ -1,0 +1,11 @@
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/obj/Debug/netcoreapp3.0/mod_one_lab_one.csprojAssemblyReference.cache
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/obj/Debug/netcoreapp3.0/mod_one_lab_one.AssemblyInfoInputs.cache
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/obj/Debug/netcoreapp3.0/mod_one_lab_one.AssemblyInfo.cs
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/bin/Debug/netcoreapp3.0/mod_one_lab_one
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/bin/Debug/netcoreapp3.0/mod_one_lab_one.deps.json
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/bin/Debug/netcoreapp3.0/mod_one_lab_one.runtimeconfig.json
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/bin/Debug/netcoreapp3.0/mod_one_lab_one.runtimeconfig.dev.json
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/bin/Debug/netcoreapp3.0/mod_one_lab_one.dll
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/bin/Debug/netcoreapp3.0/mod_one_lab_one.pdb
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/obj/Debug/netcoreapp3.0/mod_one_lab_one.dll
+/home/makavura/.senior/Learning/C#/mod_one_lab_one/obj/Debug/netcoreapp3.0/mod_one_lab_one.pdb
