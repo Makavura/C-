@@ -55,7 +55,7 @@ Console.WriteLine("{0} years old.", age);
 Console.WriteLine(street + "," + city + "," + country);
 
 // use string interpolation
-Console.WriteLine($"Born on {birthDate}");
+Console.WriteLine($"Born on {bD}");
             
         }
     }
