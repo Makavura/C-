@@ -247,3 +247,71 @@ Add 5 grades to the the Stack in the each Student object. (this does not have to
 Add the three Student objects to the Students ArrayList.
 Using a foreach loop, iterate over the Students in the ArrayList and output their first and last names to the console window. (For this exercise you MUST cast the returned object from the ArrayList to a Student object. Also, place each student name on its own line)
 
+
+# TUTORIAL LAB 1, GENERIC LIST<T>
+In the previous module's assessment lab, you created an ArrayList of Student objects. At one point in the lab, you were told that you needed to cast the objects in the ArrayList back to a Student object when you pulled them out for use. This was noted as a shortcoming to non-Generic collections in the course content.
+
+In this tutorial lab, you will change that ArrayList to a Generic list collection that is strongly typed, allowing you to retrieve the values without casting, but also adding some type safety to your code.
+
+Open Visual Studio, or your favorite IDE
+Create a new C# Console application
+Ensure that the using System.Collections.Generic; directive is at the top of the code file. It is adde automatically by Visual Studio when creating a C# project but it's always good to verify.
+Create a Student class in your project with the following attributes:
+First Name
+Last Name
+Age
+Program (this is used to represent a university program they are enrolled in such as Computer Science, or Business)
+Sample Student Object:
+
+class Student
+{
+    public Student(string first, string last, int age, string prog)
+    {
+        this.FirstName = first;
+        this.LastName = last;
+        this.Age = age;
+        this.Program = prog;
+    }
+
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public int Age { get; set; }
+    public string Program { get; set; }
+}
+Inside the Main() method in Program.cs, create a new Generic List of type Student using the following code
+// Create a Generic List of type Student
+List<Student> students = new List<Student>();
+
+Now let's create at least three student objects that we can use in our code.
+Student stud1 = new Student("Tom", "Thumb", 12, "Computer Science");
+Student stud2 = new Student("Fred", "Flintstone", 45, "Geology");
+Student stud3 = new Student("Mickey", "Mouse", 35, "Animation");
+
+Add the student objects to your new List.
+students.Add(stud1);
+students.Add(stud2);
+students.Add(stud3);
+
+Now that we have students in our list, let's see how to interact with them. Let's use a foreach loop to print out the first names of each student in the list. Note that in the foreach loop, we are using the type Student to access the objects in the list. Because our list is a Generic List, it is strongly typed and no casting is required.
+foreach(Student stud in students)
+{
+    Console.WriteLine(stud.FirstName);
+}
+
+Run your code to validate the output shows Tom, Fred, and Mickey on separate lines.
+Stop the application and go back to Visual Studio
+What if we want to check on the existence of a student object in our list? Perhaps we are adding students and we want to verify that we have a specific student in the list. Enter the following code to check for the existence of stud1 in the list.
+bool exists = students.Contains<Student>(stud1);
+Console.WriteLine(exists.ToString());
+
+Run the application and verify the results.
+Close the application and go back to Visual Studio
+What if you need to delete a student from the list? List provides the Remove method to handle this. Enter the following to delete Mickey from the list.
+students.Remove(stud3);
+Console.WriteLine(students.Count());
+
+Run the code and verify that the count is now 2.
+You can also run the previous Contains method to check and see if stud3 is indeed removed.
+Close the application
+
+
