@@ -1,0 +1,7 @@
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\obj\Debug\Algorithm_Demos.csprojResolveAssemblyReference.cache
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\obj\Debug\Algorithm_Demos.csproj.CoreCompileInputs.cache
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\bin\Debug\Algorithm_Demos.exe.config
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\bin\Debug\Algorithm_Demos.exe
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\bin\Debug\Algorithm_Demos.pdb
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\obj\Debug\Algorithm_Demos.exe
+C:\Users\gerryo\Documents\edX Project\DEV204.3x_Algorithms_and_Data_Structures_in_CSharp\Algorithm_Demos\Algorithm_Demos\obj\Debug\Algorithm_Demos.pdb
