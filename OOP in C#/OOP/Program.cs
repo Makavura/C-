@@ -175,7 +175,7 @@ namespace OOP
         //  range, and then later change that validation logic without impacting the use of 
         // the property. Users still just pass in a birthdate in date format.
 
-                // two basic property types of properties in a class
+        // two basic property types of properties in a class
         // read-only or read-write
         // a get property accessor is used to return the property value
         // a set accessor is used to assign a new value, ommission makes it read only
@@ -185,13 +185,14 @@ namespace OOP
 
         // auto-implemented properties
         public double TotalPurchases { get; set; }
-        public string Name { get; set;}
+        public string Name { get; set; }
         public int CustomerID { get; set; }
 
         // CONSTRUCTORS
         public class DrinksMachine
         {
-            public int Age {
+            public int Age
+            {
                 get;
                 set;
             }
@@ -201,68 +202,34 @@ namespace OOP
             }
         }
 
-// adding Multiple constructors
-public class DrinksMachine
-{
-    public int Age {get; set;}
-    public string Make {get; set;}
-    public string Model {get; set;}
-    public DrinksMachine(int age)
-    {
-        this.Age = age;
-    }
-    public DrinksMachine(string make, string model)
-    {
-        this.Make = make;
-        this.Model = model;
-    }
-    public DrinksMachine(int age, string make, string model)
-    {
-        this.Age = age;
-        this.Make = make;
-        this.Model = model;
-    }
-}
-
-// Calling Constructors
-var dm1 = new DrinksMachine(2);
-var dm2 = new DrinksMachine("Fourth Coffee", "BeanCrusher 3000");
-var dm3 = new DrinksMachine(3,"Fourth Coffee", "BeanToaster turbo");
-
-    class Program
-    {
-
-// in the case of a need to create a class purely to encapsulate useful functionality rather 
-// than to represemt an instance of anything
-// eg methods that convert imperial weights and measure to metric weights and measures and vice versa
-
-// in scenarios like this, a static class has the best use case
-// a static class is a class that cannot be instantiated
-// use static keyword
-// any members within must also use static keyword
-
-
-        public static class Conversion
+        // adding Multiple constructors
+        public class DrinksMachine
         {
-            public static double PoundsToKilos(double pounds)
+            public int Age { get; set; }
+            public string Make { get; set; }
+            public string Model { get; set; }
+            public DrinksMachine(int age)
             {
-                double kilos = pounds * 0.4536;
-                return kilos;
+                this.Age = age;
             }
-            public static double KilosToPounds(double kilos)
+            public DrinksMachine(string make, string model)
             {
-                double pounds = kilos * 2.205;
-                return pounds;
+                this.Make = make;
+                this.Model = model;
+            }
+            public DrinksMachine(int age, string make, string model)
+            {
+                this.Age = age;
+                this.Make = make;
+                this.Model = model;
             }
         }
-        static void Main(string[] args)
-        {
-            double weightInKilos = 80;
-            double weightInPounds = Conversion.KilosToPounds(weightInKilos);
-            Console.WriteLine(weightInPounds);
 
-        }
-    }
+        // Calling Constructors
+        var dm1 = new DrinksMachine(2);
+        var dm2 = new DrinksMachine("Fourth Coffee", "BeanCrusher 3000");
+        var dm3 = new DrinksMachine(3, "Fourth Coffee", "BeanToaster turbo");
+
         static void Main(string[] args)
         {
             var dm = new DrinksMachine();
