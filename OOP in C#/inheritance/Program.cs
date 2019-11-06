@@ -107,6 +107,13 @@ namespace inheritance
         // An abstract method is not permitted to have any implementation, including curly braces
         // An abstract method signature must end in a semi-colon
         // An abstract method MUST be implemented in any sub class. Failure to do so will generate a compiler warning in C#.        
+
+// SEALED CLASSES
+
+        // what happens when you don't want your class to be inherited?
+        //create a sealed class.
+        // use the sealed keyword on your class to restrict the inheritance feature of OOP
+        // deriveing a class from a sealed class causes the compiler to throw an error.
         static void Main(string[] args)
         {
 
