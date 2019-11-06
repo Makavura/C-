@@ -11,7 +11,15 @@ namespace mod_three_exception_handling
 // planning for and coding properly
 // make your application behave in a professional manner
 
-int result = Divide(2, 0);
+int first = 9;
+int second = 0;
+Console.WriteLine("Enter your first number: ");
+first = System.Int32.Parse(Console.ReadLine());
+Console.WriteLine("Enter your second number: ");
+second = System.Int32.Parse(Console.ReadLine());
+
+int result = Divide(first, second);
+Console.WriteLine($"the result of dividing {first} by {second} is {result}");
 
         }
 
