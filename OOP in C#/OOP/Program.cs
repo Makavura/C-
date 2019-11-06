@@ -80,19 +80,19 @@ namespace OOP
         // work with automatically generated source code
         // example
         // structs and interfaces can also be split
-        public partial class DrinksMachine
+        public partial class ShotsMachine
         {
 
-            public void MakeCappuccino()
+            public void MakeKamikaze()
             {
                 // Method logic goes here.
             }
         }
 
-        public partial class DrinksMachine
+        public partial class ShotsMachine
         {
 
-            public void MakeEspresso()
+            public void AlabamaSlammer()
             {
                 // Method logic goes here.
             }
