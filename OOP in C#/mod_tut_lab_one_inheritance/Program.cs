@@ -97,10 +97,50 @@ namespace mod_tut_lab_one_inheritance
         {
             return this.ID + " " + this.Name;
         }
+        public virtual String employeeStatus()
+        {
+            return toString() + " is in the company's system"; 
+        }
+    }
+
+    class TechnicalEmployee : Employee
+    {
+        // Reuse the constructor that we created in the Employee() Class,  call upon that constructor
+        //  within the new TechnicalEmployee() Class. In order to do that, use the base keyword
+        public TechnicalEmployee(string name) : base(name, 75000)
+        {
+
+        }
+        public int successfulCheckIns = 5;
+        public override String employeeStatus()
+        {
+            return this.toString() + " has " + this.successfulCheckIns + " successful Check ins";
+        }
+    }
+
+    class BusinessEmployee : Employee
+    {
+        public BusinessEmployee(String name) : base (name, 50000)
+        {
+
+        }
+        public double bonusBudget = 1000;
+
+        public override String employeeStatus()
+        {
+            return toString() + " with a budget of " + this.bonusBudget;
+        }
     }
 
         static void Main(string[] args)
         {
+
+        var employee1 = new Employee("Libby", 2000);
+        var employee2 = new TechnicalEmployee("Zaynah");
+        var employee3 = new BusinessEmployee("Winter");
+
+        Console.WriteLine(employee1.employeeStatus() + "..." + employee2.employeeStatus() + "..." +
+        employee3.employeeStatus());
 
         }
     }
