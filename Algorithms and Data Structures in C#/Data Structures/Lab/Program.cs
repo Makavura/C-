@@ -3,14 +3,21 @@
 namespace Lab
 {
 
+public struct Student
+{
+
+}
+
+public struct Teacher
+{
+
+}
+
 
     class Program
     {
 
-
-        static void Main(string[] args)
-        {
-
+public void manualArrayWork(){
             int[] numbers  = new int[5];
 
             numbers[0] = 2;
@@ -36,6 +43,12 @@ namespace Lab
                 forEachTotal = forEachTotal + num;
             }
             Console.WriteLine(forEachTotal);
+} 
+
+        static void Main(string[] args)
+        {
+
+
         }
     }
 }
