@@ -74,12 +74,12 @@ namespace AlgorithmsDemo
                    if (nums[i] > nums[i + 1])
                    {
                        // swap routine.  Could be a separate method as well but is used inline for simplicity here
-                       // temp is used to hold the right value in the comparison so we don't lose it.  That value will be replaced in the next step
-                       int temp = nums[i + 1];
-                       // Here we replace the right value with the larger value that was on the left.   See why we needed the temp variable above?
+                       // _temp is used to hold the right value in the comparison so we don't lose it.  That value will be replaced in the next step
+                       int _temp = nums[i + 1];
+                       // Here we replace the right value with the larger value that was on the left.   See why we needed the _temp variable above?
                        nums[i + 1] = nums[i];
-                       // Now we assign the value that is in temp, the smaller value, to the location that was just vacated by the larger number
-                       nums[i] = temp;
+                       // Now we assign the value that is in _temp, the smaller value, to the location that was just vacated by the larger number
+                       nums[i] = _temp;
                        // Indicate that we did a swap, which means we need to continue to check the remaining values.
                        swapped = true;
                    }
@@ -93,6 +93,51 @@ namespace AlgorithmsDemo
             }
             // Use Console.ReadLine() in the event application was started with debugging.
             Console.ReadLine();
+            #endregion
+
+              #region SelectionSort
+
+            // Declare an integer array that is not sorted
+            int[] _arr = { 7, 8, 4, 6, 2, 1 };
+            // Output the values of the array to the console
+            Console.WriteLine("Array before sort: 7,8,4,6,2,1");
+            //minPos will  keep track of where the minimum value is located
+            int minPos;
+            // temp is used for the swapping of values for the sort
+            int temp;
+            // outer loop will be responsible for ensuring we have iterated over the entire array
+            for (int i = 0; i < _arr.Length - 1; i++)
+            {
+               //set minPos to the current counter value for traversing the array
+               minPos = i;
+               Console.WriteLine(minPos);
+               // inner loop will perform the comparisons between the min and the other values in the array
+               for (int j = i + 1; j < _arr.Length; j++)
+               {
+                   if (_arr[j] < _arr[minPos])
+                   {
+                       //minPos will keep track of the index that min is in, this is needed when a swap happens
+                       minPos = j;
+                                    //   Console.WriteLine(minPos);
+                   }
+               }
+               //if minPos no longer equals i, it indicates a smaller value existed so a swap must take place to sort the values
+               if (minPos != i)
+               {
+                   temp = _arr[i];
+                   _arr[i] = _arr[minPos];
+                   _arr[minPos] = temp;
+                                  Console.WriteLine("SWAP ROUTINE COMMENCE");  
+                                  Console.WriteLine(minPos);
+                                  Console.WriteLine("SWAP ROUTINE END");
+               }
+            }
+            Console.Write("Array after sort: ");
+            foreach (int val in _arr)
+            {
+               Console.Write(val + ",");
+            }
+            Console.WriteLine();
             #endregion
         }
     }
