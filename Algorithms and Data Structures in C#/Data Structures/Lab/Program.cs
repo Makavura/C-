@@ -26,9 +26,9 @@ namespace Lab
             int total = 0;
             for(int i = 0; i < numbers.Length; i++)
             {
-                total = total + numbers[i]
+                total = total + numbers[i];
             }
-            Console.WriteLine(total.ToString(());
+            Console.WriteLine(total.ToString());
 
             int forEachTotal = 0;
             foreach(int num in numbers)
