@@ -36,6 +36,8 @@ namespace Lab {
             Console.WriteLine (arr[0].grade);
                         Console.WriteLine (arr[0].AdmNo);
 
+arr[0].Study();
+
             for (int i = 0; i < 5; i++) {
                 Console.WriteLine ("FIRST LOOP");
                 string _grade;
