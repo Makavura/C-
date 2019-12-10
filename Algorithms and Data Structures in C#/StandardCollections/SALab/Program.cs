@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SALab {
 
@@ -10,7 +13,8 @@ namespace SALab {
         int admNo;
         int age;
 
-        public static void _student () {
+        public void _student () {
+
             ArrayList _studentList = new ArrayList ();
 
             _studentList.Add ("_one");
@@ -33,11 +37,26 @@ namespace SALab {
 
         }
 
+        public static void _stL () {
+
+        }
+
+        public static void _stS () {
+
+        }
+
+        // public static void _print () {
+        //     _joe = new Student (7, 7717, 25);
+        //     Console.WriteLine (Student.admNo);
+        //     Console.WriteLine (Student.id);
+        //     Console.WriteLine (Student.age);
+
+        // }
+
     }
     class Program {
         static void Main (string[] args) {
 
-            Student._student ();
         }
     }
 }
