@@ -33,6 +33,9 @@ namespace GenericsLab {
                 Console.WriteLine (stud.FirstName);
             }
 
+            students.Remove (stud3);
+            Console.WriteLine (students.Count);
+
         }
     }
 }
